@@ -1,4 +1,4 @@
-### **📱 Smollan Flutter Assignment**  
+# **📱 Smollan Flutter Assignment**  
 A **Flutter-based social feed app** that demonstrates **state management (Provider), API handling (HTTP), and Firebase integration**. This project mimics a **mini Instagram-like experience**, showcasing smooth UI animations, real-time theme switching, and dynamic content fetching.  
 
 ---
@@ -23,23 +23,6 @@ A **Flutter-based social feed app** that demonstrates **state management (Provid
 
 ---
 
-### **🚀 Setup & Installation**  
-1. **Clone the repository**  
-   ```sh
-   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-   cd REPO_NAME
-   ```  
-2. **Install dependencies**  
-   ```sh
-   flutter pub get
-   ```  
-3. **Run the app**  
-   ```sh
-   flutter run
-   ```  
-
----
-
 ### **🔗 API Endpoints Used**  
 - 📥 **Feed Page:** [getFeedAPI](https://api.mocklets.com/p6903/getFeedAPI)  
 - 📩 **Post Page:** [getPostAPI](https://api.mocklets.com/p6903/getPostAPI)  
@@ -47,11 +30,3 @@ A **Flutter-based social feed app** that demonstrates **state management (Provid
 
 ---
 
-### **📌 Future Enhancements**  
-🔹 **Firebase Authentication** – User login/signup  
-🔹 **Real-time Comments** – Live updates  
-🔹 **Better UI Animations** – More engaging experience  
-
----
-
-Would you like to personalize this further? 🚀🔥
