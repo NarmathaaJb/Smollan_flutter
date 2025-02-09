@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class BubbleStories extends StatelessWidget {
   final String text;
+  final String imagePath;
 
-  BubbleStories({required this.text});
+  BubbleStories({required this.text, required this.imagePath});
 
 
 
@@ -18,7 +19,10 @@ class BubbleStories extends StatelessWidget {
             height: 60,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: Colors.grey[400],
+              image: DecorationImage(
+                image: AssetImage(imagePath), // Display the image
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           SizedBox(

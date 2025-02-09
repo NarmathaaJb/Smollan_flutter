@@ -21,11 +21,11 @@ class _HomepageState extends State<Homepage> {
   }
 
   final List<Widget> _children = [
-    UserHome(),
+    Home(),
     UserSearch(),
     UserPost(),
     Settings(),
-    UserProfile(),
+    ProfilePage(),
   ];
 
 
